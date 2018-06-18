@@ -24,6 +24,8 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: black;
+  margin: 0 auto;
+  top: 0;
 }
 
 .logo img  {
@@ -66,16 +68,50 @@ nav span {
 .tea {
   display: block;
   width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 .teaimgcontainer {
   display: flex;
-}
-.imgblock img{
-  width: 300px;
-  height: 200px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgblock {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
 
+.imgblock img{
+  display: block;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+.imgblock span {
+  disply: block;
+  font-weight: 700;
+}
+
+/* Locations */
+
+.locations {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.locblock {
+  display: block;
+  background-color: black;
+  width: 300px;
+  margin: 15px 40px 0 40px;
 }
